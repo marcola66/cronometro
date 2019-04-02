@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script language="JavaScript" src="cronometro.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document Object Model</title>
+</head>
+
+<body>
+    <h1>Cronômetro</h1>
+
+
+    <div class="container">
+        <div class="cronometro" id="Minutos">00</div>
+        <div class="cronometro" id="Segundos">:00</div>
+        <div class="cronometro" id="Centesimos">:00</div>
+
+        <input type="button" class="boton" id="start" value="&#9658;" onclick="start();">
+        <input type="button" class="boton" id="stop" value="&#8718;" onclick="stop();" disabled>
+        <input type="button" class="boton" id="reset" value="&#8635;" onclick="reset();" disabled>
+
+    </div>
+
+</body>
+
+</html>

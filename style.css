@@ -1,0 +1,41 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #007adf;
+    text-align: center;
+    
+}
+h1{color: white}
+    
+
+.cronometro{
+	float: left;
+	font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+
+.container{
+    margin: 10px auto;
+	width: 800px;
+    height: 100px;
+
+}
+
+.boton{
+    float: right;
+    border-radius: 10%;
+    color: white;
+    background-color: #007adf;
+    height: 40px;
+    width: 60px;
+	font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
